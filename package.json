@@ -1,0 +1,26 @@
+{
+    "name": "cordova-plugin-ArkSharedPref",
+    "version": "0.0.0",
+    "description": "Cordova Shared preference plugin",
+    "cordova": {
+        "id": "cordova-plugin-ArkSharedPref",
+        "platforms": [
+      "android"
+    ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/apache/cordova-plugin-device"
+    },
+    "keywords": [
+        "ecosystem:cordova",
+        "cordova-android",
+        "Shared",
+        "Shared preference",
+        "data",
+        "storage",
+        "Preferences"
+  ],
+    "author": "Kholil Mohammad Fazley",
+    "license": "Apache 2.0"
+}
