@@ -5,10 +5,14 @@ A small library providing utility methods to `save` and `get` a string to the na
 
 ## Installation
 
-  npm install cordova-plugin-sharedPref --save
+  npm install cordova-plugin-sharedpref --save
 
 ## Usage
-
+In the index.html include :
+```html
+  <script type="text/javascript" src="SharedPref.js"></script>
+```
+  
 ```javascript
 
 /**
@@ -30,4 +34,4 @@ SharedPref.arkPref("get", "name", " ", function (prefObj) {
 
 ## Release History
 
-* 0.0.0 Initial release
+* 0.0.1 Initial release
