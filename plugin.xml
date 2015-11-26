@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-    <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android" id="cordova-plugin-SharedPref" version="0.0.0">
+    <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android" id="cordova-plugin-sharedpref" version="0.0.0">
         <name>SharedPref</name>
         <description>Cordova Shared preference plugin</description>
         <license>Apache 2.0</license>

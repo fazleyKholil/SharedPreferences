@@ -5,7 +5,7 @@ A small library providing utility methods to `save` and `get` a string to the na
 
 ## Installation
 
-  npm install cordova-plugin-SharedPref --save
+  npm install cordova-plugin-sharedPref --save
 
 ## Usage
 
