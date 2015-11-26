@@ -19,9 +19,9 @@ import org.apache.cordova.PluginResult;
 import org.json.JSONArray;
 
 
-public class ArkSharedPref extends CordovaPlugin {
+public class SharedPref extends CordovaPlugin {
  
-    public static final String TAG = "ArkSharedPreferences Plugin";
+    public static final String TAG = "SharedPreferences Plugin";
     public static final String MyPREFERENCES = "MyPrefs" ;
     public static final String Name = "nameKey";
     SharedPreferences sharedpreferences;
@@ -30,7 +30,7 @@ public class ArkSharedPref extends CordovaPlugin {
 /**
 * Constructor.
 */
-public ArkSharedPref() {}
+public SharedPref() {}
  
 /**
 * Sets the context of the Command. This can then be used to do things like
@@ -41,7 +41,7 @@ public ArkSharedPref() {}
 */
 public void initialize(CordovaInterface cordova, CordovaWebView webView) {
 super.initialize(cordova, webView);
-Log.v(TAG,"Init ArkSharedPref");
+Log.v(TAG,"Init SharedPref");
 }
  
 public boolean execute(final String action, JSONArray args, CallbackContext callbackContext) throws JSONException {

@@ -1,9 +1,9 @@
 {
-    "name": "cordova-plugin-ArkSharedPref",
+    "name": "cordova-plugin-SharedPref",
     "version": "0.0.0",
     "description": "Cordova Shared preference plugin",
     "cordova": {
-        "id": "cordova-plugin-ArkSharedPref",
+        "id": "cordova-plugin-SharedPref",
         "platforms": [
       "android"
     ]
