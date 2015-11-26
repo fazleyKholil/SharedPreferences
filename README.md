@@ -1,4 +1,5 @@
-html_sanitize
+cordova-plugin-sharedpref
+
 =========
 
 A small library providing utility methods to `save` and `get` a string to the native Shared preference of android
@@ -39,4 +40,4 @@ SharedPref.arkPref("get", "name", " ", function (prefObj) {
 
 ## Release History
 
-* 0.0.2 Initial release
+* 0.0.3 Initial release
