@@ -14,7 +14,7 @@ A small library providing utility methods to `save` and `get` a string to the na
 /**
 * to save a value to the shared preference
 */
-SharedPref.arkPref("save", "name", "yovan", function (prefObj) {
+SharedPref.arkPref("save", "name", "yovan jugoo", function (prefObj) {
     alert(JSON.stringify(prefObj));
  });
  
